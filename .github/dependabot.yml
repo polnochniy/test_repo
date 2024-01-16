@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+  groups:
+    test_group_1:
+      patterns:
+        - "@angular*"
+        - "@ngrx*"
+    test_group_2:
+      patterns:
+        - "eslint*"
+    test_group_3:
+      patterns:
+        - "*"
