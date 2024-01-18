@@ -5,33 +5,33 @@ updates:
     allow:
       - dependency-type: "direct"
     open-pull-requests-limit: 2
-  groups:
-    test_group_1:
-      patterns:
-        - "@angular*"
-        - "@ngrx*"
-        - "rxjs"
-        - "typescript"
-        - "zone.js"
-        - "tslib"
-      exclude-patterns:
-        - "@angular-eslint*"
-        - "@angular-builders/jest"
-      update-types:
-        - "minor"
-        - "patch"
-    test_group_2:
-      patterns:
-        - "codemiror"
-        - "@codemiror*"
-        - "patch"
-    test_group_3:
-      patterns:
-        - "@angular-eslint*"
-        - "@eslint*"
-      exclude-patterns:
-        - "@angular*"
-        - "@ngrx*"
-    test_group_4:
-      patterns:
-        - "*"
+    groups:
+      test_group_1:
+        patterns:
+          - "@angular*"
+          - "@ngrx*"
+          - "rxjs"
+          - "typescript"
+          - "zone.js"
+          - "tslib"
+        exclude-patterns:
+          - "@angular-eslint*"
+          - "@angular-builders/jest"
+        update-types:
+          - "minor"
+          - "patch"
+      test_group_2:
+        patterns:
+          - "codemiror"
+          - "@codemiror*"
+          - "patch"
+      test_group_3:
+        patterns:
+          - "@angular-eslint*"
+          - "@eslint*"
+        exclude-patterns:
+          - "@angular*"
+          - "@ngrx*"
+      test_group_4:
+        patterns:
+          - "*"
