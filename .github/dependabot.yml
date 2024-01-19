@@ -27,14 +27,10 @@ updates:
         patterns:
           - "codemiror"
           - "@codemiror*"
-          - "patch"
       test_group_3:
         patterns:
           - "@angular-eslint*"
           - "@eslint*"
-        exclude-patterns:
-          - "@angular*"
-          - "@ngrx*"
-      # test_group_4:
-      #   patterns:
-      #     - "*"
+      test_group_4:
+        patterns:
+          - "*"
