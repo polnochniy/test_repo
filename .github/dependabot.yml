@@ -35,6 +35,6 @@ updates:
         exclude-patterns:
           - "@angular*"
           - "@ngrx*"
-      test_group_4:
-        patterns:
-          - "*"
+      # test_group_4:
+      #   patterns:
+      #     - "*"
