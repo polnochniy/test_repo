@@ -9,7 +9,7 @@ updates:
         update-types: ["version-update:semver-major"]
     open-pull-requests-limit: 10
     groups:
-      test_group_1:
+      angular:
         patterns:
           - "@angular*"
           - "@ngrx*"
@@ -23,14 +23,37 @@ updates:
         update-types:
           - "minor"
           - "patch"
-      test_group_2:
+      codemiror:
         patterns:
           - "codemiror"
           - "@codemiror*"
-      test_group_3:
+      ad-grid:
+        patterns:
+          - "ad-grid*"
+      graphql:
+        patterns:
+          - "@graphql*"
+          - "graphql*"
+          - "@apollo*"
+          - "apollo-angular"
+      eslint:
         patterns:
           - "@angular-eslint*"
-          - "@eslint*"
-      test_group_4:
+          - "@typescript-eslint*"
+          - "eslint*"
+          - "prettier*"
+        exclude-patterns:
+          - "@angular*"
+          - "@ngrx*"
+      jest:
+        patterns:
+          - "jest*"
+          - "@angular-builders/jest*"
+          - "@types/jest"
+      cypress:
+        patterns:
+          - "cypress"
+          - "local-cypress"
+      other-dependencies:
         patterns:
           - "*"
